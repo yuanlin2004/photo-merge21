@@ -1,4 +1,11 @@
-# Photo Merge
+# Photo Merge & Flip
+
+<p>
+  <img src="Resources/Icons/PhotoMerge.png" alt="Photo Merge app icon" width="160" />
+  <img src="Resources/Icons/PhotoFlip.png" alt="Photo Flip app icon" width="160" />
+</p>
+
+**Photo Merge** joins two photos into one image. **Photo Flip** displays each side with a smooth horizontal flip animation.
 
 A small, native macOS app that joins two photos top–bottom or left–right. Drag photos into the window, choose the direction, and save. The same executable also provides a CLI. No Electron, web server, third-party dependencies, network access, or image uploads.
 
