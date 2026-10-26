@@ -1,0 +1,23 @@
+name: Build and test
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  macos:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test
+        run: swift test
+      - name: Build universal app
+        run: ./scripts/build-app.sh --universal
+      - name: Package
+        run: |
+          ditto -c -k --keepParent "dist/Photo Merge.app" dist/PhotoMerge-macOS.zip
+          ditto -c -k --keepParent "dist/Photo Flip.app" dist/PhotoFlip-macOS.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: PhotoMerge-macOS
+          path: |
+            dist/PhotoMerge-macOS.zip
+            dist/PhotoFlip-macOS.zip
+            dist/photo-flip
+            dist/photo-merge
