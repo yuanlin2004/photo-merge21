@@ -11,6 +11,22 @@ A small, native macOS app that joins two photos top–bottom or left–right. Dr
 
 Requires **macOS 13 or later**. Builds for Apple Silicon and Intel.
 
+## Demo: Silver Jubilee street party
+
+A fictional family snapshot from a London street party on **7 June 1977**, paired with a handwritten note on its back. The scans were generated with AI for this demo; they are not archival photographs.
+
+![Silver Jubilee photo flipping horizontally to reveal its handwritten back](demo/silver-jubilee/flip-demo.gif)
+
+*Rendered demonstration of Photo Flip’s horizontal perspective animation, with pauses to view each side. In the app, press Space or click the photo to flip.*
+
+[Download the merged demo PNG](https://raw.githubusercontent.com/yuanlin2004/photo-merge21/main/demo/silver-jubilee/merged.png) · [Front scan](demo/silver-jubilee/front.png) · [Back scan](demo/silver-jubilee/back.png)
+
+After building, open the demo with:
+
+```sh
+open -a "$PWD/dist/Photo Flip.app" "$PWD/demo/silver-jubilee/merged.png"
+```
+
 ## Build and launch
 
 Install Xcode or Apple's Command Line Tools, then run:

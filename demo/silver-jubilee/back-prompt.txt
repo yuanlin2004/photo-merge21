@@ -1,0 +1,12 @@
+BACK
+Generate ONLY the back of the fictional 1977 Silver Jubilee family photo in the supplied reference. The reference is the FRONT of the same physical print. Output a straight-on flatbed scan, landscape 1536x1024, exact 3:2 proportions. Entire rectangular print fills the canvas edge to edge, no scanner bed, no tabletop, no hands, no perspective. Match the front's lightly worn ivory paper and gently scuffed corners as though turned horizontally. The back is matte warm cream photographic paper, subtly aged, restrained mottling with slight edge yellowing. No photographic picture on the back. Centered loosely in the middle with generous quiet margins, write the following exact fictional family note in natural slightly uneven blue ballpoint handwriting. Legible ordinary personal handwriting, not a typeset font or decorative calligraphy. Use these line breaks and spell every word correctly:
+Jubilee Day — 7 June 1977
+
+Mum and little Annie outside our house.
+Everyone brought a chair and something
+for the table. Mum’s sponge went first!
+Annie wore her crown home to bed.
+
+— June
+
+All text right-side-up, not mirrored. No extra text, stamps, logos, watermarks, printed captions or labels. Preserve the simple authentic appearance of a scanned decades-old family keepsake. This is an imagined note, not a real archival document.
