@@ -11,9 +11,25 @@ A small, native macOS app that joins two photos top–bottom or left–right. Dr
 
 Requires **macOS 13 or later**. Builds for Apple Silicon and Intel.
 
+Directed by Yuan Lin. Design and implemented by Codex GPT-6 Astra.
+
 ## Demo: Silver Jubilee street party
 
 A fictional family snapshot from a London street party on **7 June 1977**, paired with a handwritten note on its back. The scans were generated with AI for this demo; they are not archival photographs.
+
+### 1. Individual images
+
+| Photo front | Handwritten back |
+| --- | --- |
+| ![Grandmother and granddaughter at the Silver Jubilee street party](demo/silver-jubilee/front.png) | ![Handwritten memory on the back of the photograph](demo/silver-jubilee/back.png) |
+
+### 2. Merged image
+
+Photo Merge joins the two scans into one PNG and embeds the boundaries needed by Photo Flip.
+
+![The front and back scans merged side by side](demo/silver-jubilee/merged.png)
+
+### 3. Flipping effect
 
 ![Silver Jubilee photo flipping horizontally to reveal its handwritten back](demo/silver-jubilee/flip-demo.gif)
 
