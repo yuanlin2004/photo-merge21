@@ -13,9 +13,7 @@ Requires **macOS 13 or later**. Builds for Apple Silicon and Intel.
 
 Directed by Yuan Lin. Design and implemented by Codex GPT-6 Astra.
 
-## Demo: Silver Jubilee street party
-
-A fictional family snapshot from a London street party on **7 June 1977**, paired with a handwritten note on its back. The scans were generated with AI for this demo; they are not archival photographs.
+## Demo: 
 
 ### 1. Individual images
 
@@ -42,6 +40,8 @@ After building, open the demo with:
 ```sh
 open -a "$PWD/dist/Photo Flip.app" "$PWD/demo/silver-jubilee/merged.png"
 ```
+
+Note: These scans were generated with AI for this demo; they are not archival photographs.
 
 ## Build and launch
 
