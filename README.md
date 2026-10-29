@@ -41,7 +41,7 @@ After building, open the demo with:
 open -a "$PWD/dist/Photo Flip.app" "$PWD/demo/silver-jubilee/merged.png"
 ```
 
-Note: These scans were generated with AI for this demo; they are not archival photographs.
+*Note*: The above scans were generated with AI for this demo; they are not archival photographs.
 
 ## Build and launch
 
