@@ -125,3 +125,7 @@ open "dist/Photo Flip.app"
 New GUI and CLI merges embed a small, versioned JSON record in a standard PNG **iTXt** chunk named `PhotoMerge`. It records canvas size, layout, and both photo rectangles in top-left pixel coordinates. This allows exact extraction of unequal, centered, oriented, or resized photos without including the transparent padding. It does not store source paths or camera/GPS metadata and does not alter image pixels. Ordinary PNG viewers can still open the file.
 
 For older files, or files whose metadata was removed by another editor, the viewer starts with a vertical 50/50 split. Press **V** for top–bottom or **H** for left–right, then use **Left/Right arrows** to adjust the first photo's share by one percentage point. These keyboard controls keep the image free of UI. This manual fallback includes existing padding; exact original boundaries are unavailable without metadata. Invalid or stale PhotoMerge metadata is rejected with an error rather than silently showing the wrong crop.
+
+## License
+
+[MIT License](LICENSE) — Copyright © 2026 Yuan Lin.
